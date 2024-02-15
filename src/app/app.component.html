@@ -1,0 +1,20 @@
+<div style="padding-top:75px">
+<ejs-gantt id="ganttDefault" height="450px" [treeColumnIndex]="1" [dataSource]="data" [splitterSettings]="splitterSettings"
+  [taskFields]="taskSettings" [toolbar]="toolbar" [editSettings]="editSettings" [labelSettings]="labelSettings"
+  [projectStartDate]="projectStartDate" [projectEndDate]="projectEndDate" [resources]="projectResources"
+  [resourceFields]="resourceFields" viewType="ResourceView">
+
+  <e-columns>
+    <e-column field='TaskID' [visible]="false"></e-column>
+    <e-column field='BlogName' headerText="Name" [width]="300"></e-column>
+    <e-column field='resources' headerText="Resources" [width]="200"></e-column>
+    <e-column field='StartDate'></e-column>
+    <e-column field='EndDate'></e-column>
+    <e-column field='Duration'></e-column>
+    <e-column field='Predecessor'></e-column>
+    <e-column field='Progress'></e-column>
+  </e-columns>
+
+</ejs-gantt>
+</div>
+<router-outlet></router-outlet>
