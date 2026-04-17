@@ -1,27 +1,59 @@
-# BlogManagementGantt
+# Blog Management Gantt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.16.
+A simple Angular 19 repository demonstrating a Syncfusion Gantt chart for blog planning and resource tracking.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This repository contains an Angular sample app that renders a Syncfusion Gantt chart with resource assignments, editable tasks, and progress tracking for blog production workflows.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Syncfusion `@syncfusion/ej2-angular-gantt` integration
+- Resource view with named team members
+- Editable task operations for add, edit, delete, update, and cancel
+- Nested task hierarchy with subtasks
+- Task dependencies and progress tracking
 
-## Build
+## Dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 19.2.16
+- `@syncfusion/ej2-angular-gantt` 24.2.4
+- `@syncfusion/ej2-material-theme` 24.2.4
 
-## Running unit tests
+## Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js installed
+- npm installed
 
-## Running end-to-end tests
+## Setup
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Install dependencies:
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Start the development server:
+
+```bash
+npm start
+```
+
+3. Open the app in a browser:
+
+```text
+http://localhost:4200
+```
+
+## Scripts
+
+- `npm start` — starts `ng serve`
+- `npm run build` — builds the production output
+- `npm run watch` — builds continuously in development mode
+- `npm test` — runs unit tests with Karma
+
+## Notes
+
+- The Gantt chart uses `ResourceView` and maps resources via `resourceFields`.
+- Task fields include `TaskID`, `BlogName`, `StartDate`, `EndDate`, `Duration`, `Progress`, `Predecessor`, and `resources`.
+- The app includes sample blog planning tasks with resource allocation.
