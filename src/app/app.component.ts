@@ -1,7 +1,6 @@
-import { Component, ViewEncapsulation, OnInit } from '@angular/core';
-import { Gantt } from '@syncfusion/ej2-gantt';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { blogData } from './datasource';
-import { EditSettingsModel, GanttAllModule, LabelSettings } from '@syncfusion/ej2-angular-gantt';
+import { EditSettingsModel, GanttModule} from '@syncfusion/ej2-angular-gantt';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -9,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
     templateUrl:  `app.component.html`,
     imports:[
       RouterOutlet,
-      GanttAllModule
+      GanttModule
     ],
     encapsulation: ViewEncapsulation.None
 })
