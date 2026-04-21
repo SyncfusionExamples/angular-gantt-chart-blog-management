@@ -6,13 +6,11 @@ import { AppComponent } from './app.component';
 import { GanttAllModule } from '@syncfusion/ej2-angular-gantt';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GanttAllModule
+    GanttAllModule,
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

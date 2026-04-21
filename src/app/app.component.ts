@@ -1,11 +1,16 @@
 import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { Gantt } from '@syncfusion/ej2-gantt';
 import { blogData } from './datasource';
-import { EditSettingsModel, LabelSettings } from '@syncfusion/ej2-angular-gantt';
+import { EditSettingsModel, GanttAllModule, LabelSettings } from '@syncfusion/ej2-angular-gantt';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
     selector: 'app-root',
     templateUrl:  `app.component.html`,
+    imports:[
+      RouterOutlet,
+      GanttAllModule
+    ],
     encapsulation: ViewEncapsulation.None
 })
 export class AppComponent{
