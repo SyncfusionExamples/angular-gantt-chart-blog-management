@@ -2,11 +2,11 @@
 
 **Repository Description**
 
-Blog Management Gantt is a sample Angular application that shows how to plan and visualize blog production workflows using the Syncfusion Angular Gantt component.
+Blog Management Gantt is a sample Angular application that shows how to plan and visualize blog production workflows using the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart) component.
 
 ## Overview
 
-This repository demonstrates the Syncfusion Gantt chart for blog planning, content scheduling, and basic resource tracking. It presents a resource‑based timeline to organize blog activities such as writing, review, and publishing, focused purely on frontend visualization.
+This repository demonstrates the Angular Gantt chart for blog planning, content scheduling, and basic resource tracking. It presents a resource‑based timeline to organize blog activities such as writing, review, and publishing, focused purely on frontend visualization.
 
 ## Features
 
@@ -41,4 +41,12 @@ The Gantt runs in Resource View mode. Tasks represent blog items and resources r
 
 ## Intended Use
 
-This repository serves as a reference for editorial workflow planning, Angular resource‑based Gantt configuration, and non‑project management use cases with Syncfusion Gantt.
+This repository serves as a reference for editorial workflow planning, Angular resource‑based Gantt configuration, and non‑project management use cases with Angular Gantt.
+
+## Related Links
+
+- [Explore Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart)
+- [Angular Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/angular/documentation/gantt/getting-started)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/angular/documentation/gantt/overview)
+- [Gantt API Documentation](https://ej2.syncfusion.com/angular/documentation/api/gantt/)
+- [Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/angular/demos/#/tailwind3/gantt/default)
